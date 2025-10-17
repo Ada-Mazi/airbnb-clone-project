@@ -5,7 +5,7 @@ This project is a full-stack clone of the popular accommodation booking platform
 **Requirement:** UI/UX Design Planning  
 **Version:** 1.0  
 **Date:** October 2025  
-**Prepared By:** [Your Name or Team Name]
+**Prepared By:** Uwakwe Nneoma
 
 ---
 
