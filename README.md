@@ -132,6 +132,94 @@ Example: [View Figma Design Prototype](https://www.figma.com/your-prototype-link
 ---
 
 ✅ **Status:** Planning completed. Ready for design implementation.
+## 👥 Project Roles and Responsibilities
+
+### 🎯 Objective
+To define and document the roles and responsibilities of each team member involved in the Airbnb Full-Stack Clone project. This ensures clear accountability, effective collaboration, and a smooth project workflow from design to deployment.
+
+---
+
+### 🧩 Roles and Key Responsibilities
+
+#### 🗂️ **Project Manager**
+- Oversees the overall project timeline and deliverables.  
+- Coordinates communication across all teams (design, frontend, backend, QA, and DevOps).  
+- Manages the project scope, milestones, and deadlines.  
+- Ensures the project aligns with stakeholder goals and business objectives.  
+
+---
+
+#### 💻 **Frontend Developers**
+- Implement the user interface using React (or chosen framework).  
+- Develop reusable and responsive UI components following design specifications.  
+- Integrate frontend with backend APIs to display dynamic data.  
+- Ensure cross-browser compatibility and accessibility compliance.  
+- Optimize frontend performance for speed and user experience.  
+
+---
+
+#### ⚙️ **Backend Developers**
+- Design and develop RESTful APIs to handle core application logic.  
+- Implement database models, schemas, and server-side functionality.  
+- Ensure data security, validation, and performance optimization.  
+- Integrate authentication and authorization features.  
+- Collaborate closely with frontend developers for seamless API integration.  
+
+---
+
+#### 🎨 **Designers**
+- Create mockups, wireframes, and interactive prototypes in Figma.  
+- Define and maintain the design system (colors, typography, and components).  
+- Ensure visual consistency across all pages and components.  
+- Conduct usability reviews to improve overall user experience.  
+- Collaborate with developers to ensure accurate implementation of designs.  
+
+---
+
+#### 🧪 **QA/Testers**
+- Develop and execute test plans and cases for functional, integration, and UI testing.  
+- Identify, document, and track bugs to resolution.  
+- Verify that new features meet acceptance criteria before deployment.  
+- Conduct regression testing after updates or fixes.  
+- Ensure application reliability and user satisfaction through continuous testing.  
+
+---
+
+#### ☁️ **DevOps Engineers**
+- Set up and maintain the CI/CD pipeline for automated builds and deployments.  
+- Manage cloud infrastructure (e.g., AWS, Docker, or similar).  
+- Monitor application performance and system uptime.  
+- Handle version control integration and deployment configurations.  
+- Ensure scalability, security, and reliability of the production environment.  
+
+---
+
+#### 🧭 **Product Owner**
+- Define and communicate the project vision and goals.  
+- Prioritize the product backlog and determine feature importance.  
+- Collaborate with stakeholders to refine requirements and acceptance criteria.  
+- Validate delivered features to ensure they meet user and business needs.  
+- Make strategic decisions to guide development and feature scope.  
+
+---
+
+#### 🚀 **Scrum Master**
+- Facilitate Agile ceremonies (daily stand-ups, sprint planning, retrospectives).  
+- Support the team in removing blockers and improving workflow.  
+- Ensure adherence to Agile principles and sprint commitments.  
+- Promote collaboration and continuous improvement within the team.  
+- Act as a bridge between the Product Owner and development team.  
+
+---
+
+### 🧠 Summary
+
+Every role contributes uniquely to the success of the Airbnb Full-Stack Clone project.  
+- **Managers and Product roles** ensure vision, organization, and alignment.  
+- **Developers and Designers** bring the product to life with clean, functional, and user-friendly design.  
+- **Testers and DevOps Engineers** ensure quality, stability, and reliable deployment.  
+
+Together, these roles form a cohesive workflow that drives the project from concept to launch.  
 
 ---
 
