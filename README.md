@@ -220,6 +220,165 @@ Every role contributes uniquely to the success of the Airbnb Full-Stack Clone pr
 - **Testers and DevOps Engineers** ensure quality, stability, and reliable deployment.  
 
 Together, these roles form a cohesive workflow that drives the project from concept to launch.  
+## 🧩 UI Component Patterns
+
+### 🎯 Objective
+To define and plan the reusable UI components that will be developed for the Airbnb Full-Stack Clone project.  
+Each component will be built for **consistency**, **reusability**, and **responsiveness**, ensuring a cohesive user experience across the application.
+
+---
+
+### 🧱 Core UI Components
+
+#### 🧭 **Navbar**
+- Displays site logo and brand name  
+- Includes a global search bar  
+- Provides navigation links (Home, Explore, Favorites, Profile)  
+- Contains user avatar with dropdown (Login, Logout, Settings)  
+- Responsive mobile menu with hamburger toggle  
+
+---
+
+#### 🏡 **Property Card**
+- Showcases property image, title, location, and price per night  
+- Displays ratings and number of reviews  
+- Includes “favorite” (heart) button for wishlist  
+- Clickable area navigates to the property details page  
+- Responsive grid layout for mobile and desktop views  
+
+---
+
+#### 📜 **Footer**
+- Displays company information and site navigation links  
+- Includes social media icons  
+- Copyright and terms/privacy links  
+- Responsive design with stacked layout on mobile  
+
+---
+
+### 🖼️ **Property Details Page Components**
+
+#### 🏠 **Property Image Gallery**
+- Displays multiple images in a carousel or grid view  
+- Supports image preview and lightbox mode  
+- Responsive layout for different screen sizes  
+
+#### 💬 **Review Section**
+- Displays user reviews with rating stars and comments  
+- Includes form for authenticated users to add a review  
+- Shows average rating and number of reviews  
+
+#### 📅 **Booking Form**
+- Includes check-in/check-out date picker  
+- Displays price breakdown and total cost  
+- “Reserve” button triggers checkout flow  
+- Validates input and availability before proceeding  
+
+#### 🧾 **Amenities List**
+- Displays property features (Wi-Fi, Kitchen, Parking, etc.) with icons  
+- Grouped into categories for easy scanning  
+
+#### 👤 **Host Information Card**
+- Displays host image, name, and bio  
+- Shows “Contact Host” or “Message” button  
+- Adds trust and transparency to property listings  
+
+---
+
+### 💳 **Checkout & Authentication Components**
+
+#### 💼 **Checkout Summary Card**
+- Shows property details and booking info summary  
+- Displays total amount and taxes  
+- Includes secure payment button or integration placeholder  
+
+#### 💳 **Payment Form**
+- Input fields for card details, name, and billing info  
+- Validation for secure and proper payment entry  
+- Visual confirmation for successful booking  
+
+#### 🔐 **Login Form**
+- Fields for email and password  
+- “Forgot Password” link  
+- “Login” button with loading state  
+- Form validation and error handling  
+
+#### 📝 **Signup Form**
+- Fields for name, email, password, and confirmation  
+- Password strength indicator  
+- Success message on registration  
+
+---
+
+### 🌍 **Global Components**
+
+#### 🔍 **Search Bar**
+- Used in Navbar and Home page  
+- Autocomplete suggestions (optional feature)  
+- Input for location, date range, and guests  
+
+#### 🧭 **Filter Sidebar / Modal**
+- Options for filtering by price, amenities, property type, and rating  
+- Apply and Reset buttons  
+- Responsive modal version for mobile devices  
+
+#### ⭐ **Rating Component**
+- Displays property rating (0–5 stars)  
+- Interactive for submitting reviews  
+- Lightweight and reusable across listings and reviews  
+
+#### 🧮 **Pagination Component**
+- Enables navigation between property listing pages  
+- Supports dynamic loading or infinite scroll option  
+
+#### 🪶 **Breadcrumb Navigation**
+- Displays user’s path (e.g., Home > Property > Details)  
+- Enhances navigation and user orientation  
+
+---
+
+### ⚙️ **Utility Components**
+
+#### 🧭 **Loader / Spinner**
+- Displays loading animation during data fetch or API call  
+- Multiple variants: small (button) or full-screen loader  
+
+#### 🚫 **Error Message / Empty State**
+- Informs users when no results are found or an error occurs  
+- Includes simple illustration or retry button  
+
+#### ✅ **Success Modal / Toast Notification**
+- Displays feedback for successful actions (e.g., booking confirmed, saved property)  
+- Auto-dismiss after a few seconds  
+
+#### ⚠️ **Alert Dialog / Confirmation Modal**
+- Used before deleting, logging out, or performing critical actions  
+- Includes Cancel/Confirm buttons  
+
+---
+
+### 🧰 **Admin or Dashboard Components (Optional/Future)**
+If you plan to expand the project with an admin panel or user dashboard:
+- **Dashboard Sidebar** – Navigation for admin or user control panel  
+- **User Profile Card** – Displays user details and edit options  
+- **Booking List Table** – Lists all bookings with status and actions  
+- **Analytics Chart** – Shows booking statistics and revenue trends  
+
+---
+
+### 🪄 Design Principles
+- **Reusable:** Components follow a modular, plug-and-play structure.  
+- **Consistent:** Unified spacing, colors, and typography.  
+- **Accessible:** Follows WCAG standards (contrast, ARIA roles, keyboard navigation).  
+- **Responsive:** Adaptive grid and flexible layouts across devices.  
+
+---
+
+### 🧠 Summary
+These components form the **foundation of the UI architecture**.  
+Each one will be designed in Figma, implemented in React (or the chosen frontend framework), and documented for future scalability.
+
+> The goal is to build a design system that simplifies development, enhances consistency, and improves maintainability across the Airbnb clone project.
 
 ---
 
